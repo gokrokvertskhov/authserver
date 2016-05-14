@@ -1,0 +1,12 @@
+[default]
+bind = "0.0.0.0:8080"
+auth = false
+
+[log]
+file = "api.log"
+level = "warn"
+console = true
+
+[secure]
+publickey = "demo.rsa.pub"
+privatekey = "demo.rsa"
